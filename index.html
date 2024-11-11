@@ -6,9 +6,11 @@
     <link rel="stylesheet" href="css/css_index/slider.css">
     <link rel="stylesheet" href="css/css_index/index.css">
     <link rel="stylesheet" href="css/css_index/noticias_previas.css">
-    <script src="js/js_general/agg-plantillas-index.js"></script>
-    <script src="js/js_index/seccion1.js"></script>
-    <script src="js/js_index/noticias_previas.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Inicio | Cetis 104 </title>
 </head>
@@ -101,7 +103,7 @@
         </div>
 
         <div class="news-container-custom">
-            <h1>Noticias</h1>
+            <h1 class="N1_2">Noticias</h1>
             <div class="news-grid-custom">
                 <div class="news-item-custom" onclick="toggleNews(this)" data-url="pages Eventos/Prototipos-2024.html">
                     <div class="short-desc-custom">
@@ -159,16 +161,17 @@
                     </button>
                 </div>
             </div>
-        </div>
+        </div> 
     </div>
 
     <!-- footer agregado con js NT.Para modificar el header solo modificar el archivo "plantilla/footer.html" -->
     <div id="footer" class="footer" onfocus="closeSidebar()"></div>
+    <script src="js/js_general/agg-plantillas-index.js"></script>
+    <script src="js/js_index/seccion1.js"></script>
+    <script src="js/js_index/noticias_previas.js"></script>
    
     <!-- dino cetis "plantilla/dino_redes.html" -->
     <div id="dino_cetis" class="dino_cetis" onfocus="closeSidebar()"></div>
-
-    <!-- js -->
 
 </body>
 </html>
